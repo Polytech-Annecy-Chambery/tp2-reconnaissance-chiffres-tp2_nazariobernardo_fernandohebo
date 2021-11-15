@@ -33,8 +33,9 @@ if __name__ == '__main__':
     S = 70
     image_binarisee = image.binarisation(S)
     image_binarisee.display("Image binarisee")
-    9
-    #==============================================================================
+
+
+    '''#==============================================================================
     # Localisation de l'image et affichage
     #==============================================================================
     image_localisee = image_binarisee.localisation()
@@ -51,4 +52,4 @@ if __name__ == '__main__':
     #==============================================================================
     liste_modeles = lecture_modeles(path_to_assets)
     chiffre = reconnaissance_chiffre(image, liste_modeles, 70)
-    print("Le chiffre reconnu est : ", chiffre)
+    print("Le chiffre reconnu est : ", chiffre)'''
