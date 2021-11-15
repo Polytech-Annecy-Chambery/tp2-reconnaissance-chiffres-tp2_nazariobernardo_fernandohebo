@@ -7,7 +7,7 @@ from numpy.testing import assert_almost_equal
 import unittest
 import numbers
 
-path_to_assets = 'tp2-reconnaissance-chiffres-tp2_nazariobernardo_fernandohebo/assets/'
+path_to_assets = 'tp2-reconnaissance-chiffres-tp2_nazariobernardo_fernandohebo//assets//'
 
 class Test_Image_binarisation(unittest.TestCase):
     def test_binarisation_is_not_none(self):
