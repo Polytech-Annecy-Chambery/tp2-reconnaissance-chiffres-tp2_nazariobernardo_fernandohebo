@@ -17,7 +17,7 @@ from reconnaissance import reconnaissance_chiffre, lecture_modeles
 if __name__ == '__main__':
 
     # Variables utiles
-    path_to_assets = 'tp2-reconnaissance-chiffres-tp2_nazariobernardo_fernandohebo/assets/'
+    path_to_assets = 'tp2-reconnaissance-chiffres-tp2_nazariobernardo_fernandohebo//assets//'
     plt.ion() # Mode interactif de matplotlib our ne pas bloquer l'éxécutions lorsque l'on fait display
 
     #==============================================================================
