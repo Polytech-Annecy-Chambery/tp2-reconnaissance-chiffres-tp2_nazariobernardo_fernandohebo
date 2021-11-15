@@ -11,6 +11,9 @@ class Image:
         self.pixels = None
         self.H = 0
         self.W = 0
+        
+        
+        
     
 
     def set_pixels(self, tab_pixels):
@@ -47,7 +50,24 @@ class Image:
     #   on retourne une nouvelle image binarisee
     #==============================================================================
     def binarisation(self, S):
-        pass
+         # creation d'une image vide
+        im_bin = Image()
+    
+    # affectation a l'image im_bin d'un tableau de pixels de meme taille
+    # que self dont les intensites, de type uint8 (8bits non signes),
+    # sont mises a 0
+        im_bin.set_pixels(np.zeros((self.H, self.W), dtype=np.uint8))
+    
+    
+    # TODO: boucle imbriquees pour parcourir tous les pixels de l'image im_bin
+    # et calculer l'image binaire
+        for i in range(0, self.W) :
+            for j in range(0, self.H) :
+                if self.pixels[i,j]==255:
+                        im_bin[i,j]=255
+                else:
+                        im_bin[i,j]=0
+        return im_bin
 
 
     #==============================================================================

@@ -49,6 +49,6 @@ if __name__ == '__main__':
     #==============================================================================
     # Lecture modeles et reconnaissance
     #==============================================================================
-    liste_modeles = lecture_modeles(path_to_assets)
+'''    liste_modeles = lecture_modeles(path_to_assets)
     chiffre = reconnaissance_chiffre(image, liste_modeles, 70)
-    print("Le chiffre reconnu est : ", chiffre)
+    print("Le chiffre reconnu est : ", chiffre)'''
