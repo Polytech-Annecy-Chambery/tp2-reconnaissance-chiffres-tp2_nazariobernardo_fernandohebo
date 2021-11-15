@@ -17,8 +17,8 @@ from reconnaissance import reconnaissance_chiffre, lecture_modeles
 if __name__ == '__main__':
 
     # Variables utiles
-    path_to_assets = 'tp2-reconnaissance-chiffres-tp2_nazariobernardo_fernandohebo//assets//'
-    plt.ion() # Mode interactif de matplotlib our ne pas bloquer l'éxécutions lorsque l'on fait display
+    path_to_assets = 'C:\\Users\\hebof\\Bureau\\TP2_INFO\\tp2-reconnaissance-chiffres-tp2_nazariobernardo_fernandohebo-main\\assets\\'
+    plt.ion() # Mode interactif de matplotlib pour ne pas bloquer l'éxécutions lorsque l'on fait display
 
     #==============================================================================
     # Lecture image et affichage
@@ -33,7 +33,7 @@ if __name__ == '__main__':
     S = 70
     image_binarisee = image.binarisation(S)
     image_binarisee.display("Image binarisee")
-
+    9
     #==============================================================================
     # Localisation de l'image et affichage
     #==============================================================================
@@ -49,6 +49,6 @@ if __name__ == '__main__':
     #==============================================================================
     # Lecture modeles et reconnaissance
     #==============================================================================
-'''    liste_modeles = lecture_modeles(path_to_assets)
+    liste_modeles = lecture_modeles(path_to_assets)
     chiffre = reconnaissance_chiffre(image, liste_modeles, 70)
-    print("Le chiffre reconnu est : ", chiffre)'''
+    print("Le chiffre reconnu est : ", chiffre)
